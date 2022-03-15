@@ -51,3 +51,34 @@ header nav ul li a {
 .welcome {
     float: left;
 }
+
+.contact-me {
+    text-align: center;
+    background: #dfe075;
+    padding: 50px;
+}
+
+.contact-me h2 {
+    color: mediumslateblue;
+}
+
+.contact-names li{
+    display: inline-block;
+    padding: 20px;
+    color: mediumslateblue;
+    text-align: center;
+}
+
+.contact-images li{
+    align-items: center;
+    padding: 10px 50px 10px 90px;
+    display: inline-block;
+}
+
+footer div{
+    background: mediumslateblue;
+    color:#dfe075;
+    width: 100%;
+    padding: 40px 35px;
+    text-align: center;
+}
