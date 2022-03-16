@@ -44,6 +44,7 @@ header nav ul li a {
     font-size: 25px;
 }
 
+/*not working*/
 .about-me img {
     float: right;
 }
@@ -51,7 +52,7 @@ header nav ul li a {
 .welcome {
     float: left;
 }
-
+/*not working */
 .contact-me {
     text-align: center;
     background: #dfe075;
