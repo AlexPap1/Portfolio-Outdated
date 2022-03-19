@@ -4,6 +4,11 @@
     box-sizing: border-box;
   }
 
+:root{
+    --purple: rgb(69, 58, 129);
+    --yellow: rgb(221, 143, 40);
+}
+
 main {
     display: flex;
     /* Forces elements to the next line if they don't fit */
@@ -12,19 +17,19 @@ main {
 }
 
 body {
-    color:mediumslateblue;
+    color: var(--purple);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
     padding: 30px 30px;
-    background-color: #dfe075;
+    background-color: var(--yellow);
 }
 
 header h1 {
     font-weight: bold;
     font-size: 50px;
-    color:mediumslateblue;
+    color: var(--purple);
     margin: 0;
     display: inline;
 }
@@ -44,29 +49,92 @@ header nav ul li a {
     font-size: 25px;
 }
 
-/*not working*/
-.about-me img {
-    float: right;
+.hero {
+    background-position: cover;
+    background-position: center;
+    position: relative;
 }
 
-.welcome {
-    float: left;
+.content{
+    background-color: var(--purple);
 }
+
+.about-me img{
+    float: left;
+    width: 35%;
+    margin: 150px 0 50px 0;
+}
+
+.about-me{
+    width: 900px;
+    color: var(--yellow);
+    background-color: var(--purple);
+    margin: 0 auto 30px auto;
+    overflow: auto;
+}
+
+.bio {
+    padding: 50px;
+    float: left;
+    width: 65%;
+}
+
+.bio h3{
+    font-size: 60px;
+    color: var(--yellow);
+    margin-bottom: 20px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+}
+
+.bio p{
+    padding: 100 px;
+    float: left;
+    width: 105%;
+    color: var(--yellow);
+}
+
+.bio p {
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+
+
+
+
+/*not working
+
+.my-work{
+    color: var(--yellow);
+}
+
 /*not working */
+
+
+
+
+
+
 .contact-me {
     text-align: center;
-    background: #dfe075;
+    background: var(--yellow);
     padding: 50px;
 }
 
 .contact-me h2 {
-    color: mediumslateblue;
+    color: var(--purple);
 }
 
 .contact-names li{
     display: inline-block;
     padding: 20px;
-    color: mediumslateblue;
+    color: var(--purple);
     text-align: center;
 }
 
@@ -77,8 +145,8 @@ header nav ul li a {
 }
 
 footer div{
-    background: mediumslateblue;
-    color:#dfe075;
+    background: var(--purple);
+    color: var(--yellow);
     width: 100%;
     padding: 40px 35px;
     text-align: center;
