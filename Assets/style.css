@@ -5,8 +5,8 @@
   }
 
 :root{
-    --purple: rgb(69, 58, 129);
-    --yellow: rgb(221, 143, 40);
+    --yellow: rgb(89, 87, 105);
+    --purple: rgb(93, 153, 88);
 }
 
 main {
@@ -32,15 +32,18 @@ header h1 {
     color: var(--purple);
     margin: 0;
     display: inline;
+    flex-wrap: wrap;
 }
 
 header nav {
     float: right;
     margin: -50px 10px;
+    position: relative;
 }
 
 header nav ul li {
     display: inline;
+    flex-wrap: wrap;
 }
 
 header nav ul li a {
@@ -85,6 +88,8 @@ header nav ul li a {
     margin-bottom: 20px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .bio p{
@@ -108,14 +113,29 @@ header nav ul li a {
 
 
 
-/*not working
+.my-work h2{
+    text-align: center;
+}
 
 .my-work{
     color: var(--yellow);
 }
 
-/*not working */
+.head-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.row li{
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+    display: inline-block;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align:center;
+    flex-wrap: wrap;
+}
 
 
 
@@ -136,12 +156,14 @@ header nav ul li a {
     padding: 20px;
     color: var(--purple);
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .contact-images li{
     align-items: center;
     padding: 10px 50px 10px 90px;
     display: inline-block;
+    flex-wrap: wrap;
 }
 
 footer div{
