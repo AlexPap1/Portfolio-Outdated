@@ -5,8 +5,8 @@
   }
 
 :root{
-    --yellow: rgb(89, 87, 105);
-    --purple: rgb(93, 153, 88);
+    --main: rgb(89, 87, 105);
+    --secondary: rgb(93, 153, 88);
 }
 
 main {
@@ -17,19 +17,19 @@ main {
 }
 
 body {
-    color: var(--purple);
+    color: var(--secondary);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
     padding: 30px 30px;
-    background-color: var(--yellow);
+    background-color: var(--main);
 }
 
 header h1 {
     font-weight: bold;
     font-size: 50px;
-    color: var(--purple);
+    color: var(--secondary);
     margin: 0;
     display: inline;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@ header nav ul li a {
 }
 
 .content{
-    background-color: var(--purple);
+    background-color: var(--secondary);
 }
 
 .about-me img{
@@ -70,8 +70,8 @@ header nav ul li a {
 
 .about-me{
     width: 900px;
-    color: var(--yellow);
-    background-color: var(--purple);
+    color: var(--main);
+    background-color: var(--secondary);
     margin: 0 auto 30px auto;
     overflow: auto;
 }
@@ -84,7 +84,7 @@ header nav ul li a {
 
 .bio h3{
     font-size: 60px;
-    color: var(--yellow);
+    color: var(--main);
     margin-bottom: 20px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
@@ -96,7 +96,7 @@ header nav ul li a {
     padding: 100 px;
     float: left;
     width: 105%;
-    color: var(--yellow);
+    color: var(--main);
 }
 
 .bio p {
@@ -108,17 +108,12 @@ header nav ul li a {
     text-align: left;
 }
 
-
-
-
-
-
 .my-work h2{
     text-align: center;
 }
 
 .my-work{
-    color: var(--yellow);
+    color: var(--main);
 }
 
 .head-image {
@@ -127,34 +122,43 @@ header nav ul li a {
     margin-right: auto;
 }
 
-.row li{
+.row li {
     align-items: center;
     padding: 10px 25px 10px 25px;
     display: inline-block;
     flex-wrap: wrap;
     list-style: none;
     text-align:center;
-    flex-wrap: wrap;
 }
 
+.applications li {
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 20px;
+}
 
-
+.run-buddy {
+    margin: 0 0 0 450px;
+}
 
 
 .contact-me {
     text-align: center;
-    background: var(--yellow);
+    background: var(--main);
     padding: 50px;
 }
 
 .contact-me h2 {
-    color: var(--purple);
+    color: var(--secondary);
 }
 
 .contact-names li{
     display: inline-block;
     padding: 20px;
-    color: var(--purple);
+    color: var(--secondary);
     text-align: center;
     flex-wrap: wrap;
 }
@@ -167,8 +171,8 @@ header nav ul li a {
 }
 
 footer div{
-    background: var(--purple);
-    color: var(--yellow);
+    background: var(--secondary);
+    color: var(--main);
     width: 100%;
     padding: 40px 35px;
     text-align: center;

@@ -11,4 +11,5 @@ images are transparent to avoid box framing
 
 profile picture at ~35% size to keep bio from extending too long
 
-remove bullets from my work list
+removed bullets from my work list
+
