@@ -10,7 +10,7 @@ This site is designed to showcase my work in software development while also int
 
 I included links to the "About Me", "My Work", and "Contact Me" sections to make the site easier to navigate.
 
-**About ME**
+**About Me**
 
 In the About Me seciton, I added a recent photo of myself as well as a short paragraph about myself including my education history, my interests/hobbies, and my desire to get into software development.
 
