@@ -131,6 +131,15 @@ header nav ul li a {
     text-align:center;
 }
 
+.row_1 li {
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+    display: inline-block;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align:center;
+}
+
 .applications li {
     align-items: center;
     display: inline-block;
@@ -140,10 +149,9 @@ header nav ul li a {
     font-size: 20px;
 }
 
-.run-buddy {
-    margin: 0 0 0 450px;
+.links {
+    color: var(--secondary);
 }
-
 
 .contact-me {
     text-align: center;
